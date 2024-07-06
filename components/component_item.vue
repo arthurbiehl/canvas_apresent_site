@@ -1,0 +1,101 @@
+<template>
+
+    <div class="item">
+        <h1>item</h1>
+        <div class="container_item">
+            <div class="topico">
+                <div class="conteudo_caixa">
+                    <p>API de Desenho 2D</p>
+                </div>
+                <a href="../pages/api.html"></a>
+            </div>
+        </div>
+    </div>
+
+
+</template>
+
+<style>
+
+.item {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container_item {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* CARD */
+.topico {
+    width: 230px;
+    height: 270px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    transition: 0.5s;
+    background-size: contain;
+    box-shadow: 0px 0px 2px rgba(82, 82, 82, 0.646);
+    position: relative;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.topico img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.topico a {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+
+
+.topico:hover {
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px black;
+}
+
+.container_topicos:hover> :not(:hover) {
+    opacity: 0.8;
+}
+
+.topico:hover .conteudo_caixa {
+    opacity: 1;
+}
+
+
+.conteudo_caixa {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.838);
+    font-size: 18px;
+    background-color: rgb(39, 39, 39);
+    z-index: 2;
+    opacity: 0;
+}
+
+.conteudo_caixa p {
+    margin-left: 10px;
+}
+</style>
