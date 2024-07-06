@@ -6,7 +6,7 @@
             <div class="links_header">
                 <img src="../static/logo.jpeg" alt="">
 
-                <a href="#">INÍCIO</a>
+                <a href="/">INÍCIO</a>
                 <a href="#sobre">SOBRE</a>
             </div>
 
@@ -27,7 +27,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
 }
 
 .container_header {

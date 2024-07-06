@@ -1,7 +1,7 @@
 <template>
 
 
-    <a href="">
+    <a href="/api_page">
         <div class="card1">
             <img src="../static/image1.png" alt="">
             <div class="container_card">

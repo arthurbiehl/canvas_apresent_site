@@ -20,7 +20,7 @@
 <script setup>
 
   useHead({
-    title: 'Minecraft Wike - Items'
+    title: 'Canvas - inicio'
   });
 
 </script>
