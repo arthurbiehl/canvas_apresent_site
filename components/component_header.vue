@@ -7,11 +7,11 @@
                 <img src="../static/logo.jpeg" alt="">
 
                 <a href="#">INÍCIO</a>
-                <a href="#">SOBRE</a>
+                <a href="#sobre">SOBRE</a>
             </div>
 
             <div class="item_header">
-                <a href="">ITEM</a>
+                <a href="#topicos">O QUE É?</a>
             </div>
         </div>
 

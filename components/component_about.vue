@@ -1,6 +1,6 @@
 <template>
 
-    <div class="sobre">
+    <div id="sobre">
         <div class="container_sobre">
             <div class="escrita_sobre">
                 <h2>PRA QUE SERVE?</h2>
@@ -10,7 +10,7 @@
                 <p>É amplamente utilizada por indivíduos e empresas para criar uma variedade de conteúdos visuais, como posts para redes sociais, apresentações, cartões, pôsteres, currículos, convites e muito mais.</p>
             </div>
 
-            <div class="item">
+            <div class="item_sobre">
                 <img src="../static/sobre.jpeg" alt="">
             </div>
         </div>
@@ -31,9 +31,9 @@
     background-color: #A62177;
 }
 
-.sobre{
+#sobre{
     width: 100%;
-    height: 600px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +43,7 @@
     width: 70%;
     height: 500px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -62,7 +62,7 @@
     color: rgba(65, 65, 65, 0.705)
 }
 
-.item {
+.item_sobre {
     width: 200px;
     height: 400px;
     display: flex;
@@ -70,8 +70,8 @@
     align-items: center;
 }
 
-.item img {
-    width: 200px;
+.item_sobre img {
+    width: 300px;
 }
 
 
