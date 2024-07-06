@@ -8,6 +8,9 @@
     <ComponentAbout></ComponentAbout>
 
     <ComponentItem></ComponentItem>
+
+    <ComponentFooter></ComponentFooter>
+
     
     
   </main>
