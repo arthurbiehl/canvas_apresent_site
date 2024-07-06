@@ -5,7 +5,7 @@
         <div class="card1">
             <img src="../static/image1.png" alt="">
             <div class="container_card">
-                <h1><label style="color: #9FC131;">API de Desenho 2D</label></h1>
+                <h1><label style="color: #9FC131;">Desenho 2D CANVAS</label></h1>
             </div>
         </div>
     </a>
@@ -14,7 +14,7 @@
         <div class="card2">
             <img src="../static/image2.png" alt="">
             <div class="container_card">
-                <h1><label style="color: #A62177;">Criação de Gráficos e Animações</label></h1>
+                <h1><label style="color: #A62177;">Como usar o CANVA?</label></h1>
             </div>
         </div>
     </a>
@@ -23,7 +23,7 @@
         <div class="card3">
             <img src="../static/image3.png" alt="">
             <div class="container_card">
-                <h1><label style="color: #9FC131;">Exemplos Práticos</label></h1>
+                <h1><label style="color: #9FC131;">Propriedades CANVAS</label></h1>
             </div>
         </div>
     </a>
