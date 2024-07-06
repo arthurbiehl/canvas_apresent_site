@@ -10,7 +10,7 @@
         </div>
     </a>
 
-    <a href="">
+    <a href="/canva_page">
         <div class="card2">
             <img src="../static/image2.png" alt="">
             <div class="container_card">
@@ -19,7 +19,7 @@
         </div>
     </a>
 
-    <a href="">
+    <a href="/praticas_page">
         <div class="card3">
             <img src="../static/image3.png" alt="">
             <div class="container_card">
