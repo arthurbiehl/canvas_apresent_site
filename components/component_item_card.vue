@@ -28,7 +28,7 @@
         </div>
     </a>
 
-    <a href="">
+    <a href="/interacao_page">
         <div class="card4">
             <img src="../static/image4.png" alt="">
             <div class="container_card">
