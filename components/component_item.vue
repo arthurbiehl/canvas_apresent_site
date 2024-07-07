@@ -41,12 +41,13 @@ label {
 }
 
 .container_topicos {
-    width: 70%;
+    width: 80%;
     height: 500px;
     display: flex;
     justify-content: flex-start;
     align-items: left;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .container_topicos h2 {

@@ -11,7 +11,7 @@
     </a>
 
     <a href="/canva_page">
-        <div class="card2">
+        <div class="card1">
             <img src="../static/image2.png" alt="">
             <div class="container_card">
                 <h1><label style="color: #A62177;">Como usar o CANVA?</label></h1>
@@ -20,7 +20,7 @@
     </a>
 
     <a href="/praticas_page">
-        <div class="card3">
+        <div class="card1">
             <img src="../static/image3.png" alt="">
             <div class="container_card">
                 <h1><label style="color: #9FC131;">Propriedades CANVAS</label></h1>
@@ -29,7 +29,7 @@
     </a>
 
     <a href="/interacao_page">
-        <div class="card4">
+        <div class="card1">
             <img src="../static/image4.png" alt="">
             <div class="container_card">
                 <h1><label style="color: #A62177;">Integração com outras Tecnologias</label></h1>
@@ -59,76 +59,14 @@ a {
     justify-content: flex-end;
     align-items: left;
     flex-direction: column;
-    background-color: red;
-    filter: blur(1.5px);
     transition: 0.5s;
-    background: url('');
 }
+
 
 .card1:hover {
-    filter: blur(0px);
-
+    box-shadow: 0px 0px 2px black;
 }
 
-.card2 {
-    width: 250px;
-    height: 300px;
-    margin: 10px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: left;
-    flex-direction: column;
-    background-color: red;
-    filter: blur(1.5px);
-    transition: 0.5s;
-    background: url('');
-}
-
-.card2:hover {
-    filter: blur(0px);
-
-}
-
-.card3 {
-    width: 250px;
-    height: 300px;
-    margin: 10px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: left;
-    flex-direction: column;
-    background-color: red;
-    filter: blur(1.5px);
-    transition: 0.5s;
-    background: url('');
-}
-
-.card3:hover {
-    filter: blur(0px);
-
-}
-
-.card4 {
-    width: 250px;
-    height: 300px;
-    margin: 10px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: left;
-    flex-direction: column;
-    background-color: red;
-    filter: blur(1.5px);
-    transition: 0.5s;
-    background: url('');
-}
-
-.card4:hover {
-    filter: blur(0px);
-
-}
 
 .container_card {
     width: 100%;
