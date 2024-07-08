@@ -12,7 +12,7 @@
         </div>
 
         <div class="feito_por">
-            <p>FEITO POR ARTHUR BIEHL</p>
+            <p>FEITO POR ARTHUR BIEHL, ANNA, FLÁVIA</p>
         </div>
 
     </footer>

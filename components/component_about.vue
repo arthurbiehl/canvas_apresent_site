@@ -5,9 +5,14 @@
             <div class="escrita_sobre">
                 <h2>PRA QUE SERVE?</h2>
                 <div class="linha"></div>
-                <p>A tag canvas em HTML5 é uma área retangular na qual é possível desenhar gráficos e renderizar imagens usando scripts JavaScript. É uma ferramenta fundamental para desenvolvedores web que desejam criar gráficos e animações interativas diretamente no navegador, proporcionando flexibilidade, desempenho e controle sobre elementos visuais na web.</p>
-                <p>Canva é uma plataforma online que permite criar designs gráficos de maneira intuitiva e acessível, sem exigir habilidades avançadas em design gráfico.</p>
-                <p>É amplamente utilizada por indivíduos e empresas para criar uma variedade de conteúdos visuais, como posts para redes sociais, apresentações, cartões, pôsteres, currículos, convites e muito mais.</p>
+                <p>A tag canvas em HTML5 é uma área retangular na qual é possível desenhar gráficos e renderizar imagens
+                    usando scripts JavaScript. É uma ferramenta fundamental para desenvolvedores web que desejam criar
+                    gráficos e animações interativas diretamente no navegador, proporcionando flexibilidade, desempenho
+                    e controle sobre elementos visuais na web.</p>
+                <p>Canva é uma plataforma online que permite criar designs gráficos de maneira intuitiva e acessível,
+                    sem exigir habilidades avançadas em design gráfico.</p>
+                <p>É amplamente utilizada por indivíduos e empresas para criar uma variedade de conteúdos visuais, como
+                    posts para redes sociais, apresentações, cartões, pôsteres, currículos, convites e muito mais.</p>
             </div>
 
             <div class="item_sobre">
@@ -21,7 +26,6 @@
 </template>
 
 <style>
-
 .linha {
     width: 100px;
     height: 3px;
@@ -31,7 +35,7 @@
     background-color: #A62177;
 }
 
-#sobre{
+#sobre {
     width: 100%;
     height: 500px;
     display: flex;
@@ -74,5 +78,42 @@
     width: 300px;
 }
 
+@media screen and (max-width: 800px) {
 
+    #sobre {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .container_sobre {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .escrita_sobre {
+        width: 90%;
+        height: auto;
+        margin-top: 100px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .item_sobre {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 150px;   
+
+    }
+}
 </style>
