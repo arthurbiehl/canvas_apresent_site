@@ -182,4 +182,60 @@
     width: 600px;
     height: 300px;
 }
+
+
+@media screen and (max-width: 800px) {
+    .canva {
+        width: 100%;
+        height: auto;
+    }
+
+    .container_canva {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .escrita_canva {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .escrita_canva h1 {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .tags_canva {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column
+    }
+
+    .iframe_canva {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .iframe_canva iframe {
+        width: 90%;
+    }
+
+
+}
 </style>

@@ -142,4 +142,40 @@
     font-size: 17px;
     color: rgb(247, 247, 247);
 }
+
+@media screen and (max-width: 800px)  {
+    .pratica {
+        width: 100%;
+        height: auto;
+    }
+
+    .container_pratica {
+        width: 100%;
+        height: auto;
+    }
+
+    .escrita_pratica {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center
+    }
+
+    .tags_pratica {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .card_pratica {
+        width: 100%;
+        margin: 0px;
+        border-radius: 0px;
+        margin-bottom: 10px
+    }
+}
 </style>

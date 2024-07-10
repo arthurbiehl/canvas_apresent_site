@@ -50,7 +50,9 @@
                 <div class="escrita">
                     <h1>Proteja a identidade da sua marca</h1>
                     <div class="linha"></div>
-                    <p>De infográficos para apresentar um novo produto ou recurso de software a vídeos para promover a cultura ou a visão da empresa, garanta a uniformidade visual da sua marca usando o Canva para criar seu conteúdo..</p>
+                    <p>De infográficos para apresentar um novo produto ou recurso de software a vídeos para promover a
+                        cultura ou a visão da empresa, garanta a uniformidade visual da sua marca usando o Canva para
+                        criar seu conteúdo..</p>
 
                     <div class="icones">
                         <h2>Kit de Marca</h2>
@@ -175,5 +177,56 @@
 
 .contact_icon {
     font-size: 25px;
+}
+
+@media screen and (max-width: 800px) {
+    .interacao {
+        width: 100%;
+        height: auto;
+    }
+
+    .container_interacao {
+        width: 100%;
+        height: auto;
+    }
+
+    .escrita_interacao {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .escrita {
+        width: 100%;
+        height: auto;
+    }
+
+    .icones {
+        width: 300px;
+        height: auto;
+    }
+
+    .icone {
+        width: 100%;
+    }
+
+    .contact_icon {
+        font-size: 30px;
+    }
+
+    .image_interacao {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+    }
+
+    .image_interacao img {
+        width: 100%;
+        height: 100%;
+    }
 }
 </style>
