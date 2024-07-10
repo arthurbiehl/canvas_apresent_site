@@ -6,3 +6,12 @@
 
     <ComponentFooter></ComponentFooter>
 </template>
+
+
+<script setup>
+
+  useHead({
+    title: 'Canvas - sobre canva'
+  });
+
+</script>

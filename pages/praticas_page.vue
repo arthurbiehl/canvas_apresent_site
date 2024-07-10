@@ -8,4 +8,10 @@
 </template>
 
 
-<script></script>
+<script setup>
+
+  useHead({
+    title: 'Canvas - Praticas'
+  });
+
+</script>

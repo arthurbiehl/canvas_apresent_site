@@ -7,3 +7,11 @@
     <ComponentFooter></ComponentFooter>
 
 </template>
+
+<script setup>
+
+  useHead({
+    title: 'Canvas - Interacao'
+  });
+
+</script>
