@@ -179,4 +179,58 @@
     margin-left: 10px;
     color: white;
 }
+
+
+@media screen and (max-width: 800px) {
+    .sobre_api {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+
+    }
+
+    .container_sobre_api {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .escrita_sobre_api{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .escrita_sobre_api p {
+        width: 100%;
+    }
+
+    .exemplo_sobre_api {
+        width: 100%;
+    }
+
+    .caixa_preta {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .caixa_preta  p {
+        width: 100%;
+    }
+    .caixa_branca {
+        width: 300px;
+        padding: 0px;
+        margin: 5px
+    }
+}
 </style>

@@ -54,5 +54,28 @@
     color: rgba(136, 136, 136, 0.863);
 }
 
+@media screen and (max-width: 800px) {
+    .cover {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
+    .container_cover {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .escrita_cover {
+        width: 100%;
+        height: 200px;
+        text-align: center;
+    }
+}
 </style>

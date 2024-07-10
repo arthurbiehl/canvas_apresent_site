@@ -92,4 +92,25 @@ header {
     background-color: #A62177;
     color: white;
 }
+
+
+@media screen and (max-width: 800px) {
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container_header {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .item_header {
+        width: 150px;
+    }
+}
 </style>

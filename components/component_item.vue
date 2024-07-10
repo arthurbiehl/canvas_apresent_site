@@ -1,12 +1,12 @@
 <template>
 
     <div id="topicos">
-        
+
         <div class="container_topicos">
             <h2>O QUE É O <label>CANVAS</label>?</h2>
             <div class="linha"></div>
             <div class="items_topicos">
-                <ComponentItemCard/>
+                <ComponentItemCard />
             </div>
 
         </div>
@@ -16,7 +16,6 @@
 </template>
 
 <style>
-
 label {
     color: #9FC131;
 }
@@ -30,7 +29,7 @@ label {
     background-color: #9FC131;
 }
 
-#topicos{
+#topicos {
     width: 100%;
     height: 500px;
     display: flex;
@@ -64,5 +63,32 @@ label {
     align-items: center;
 }
 
+@media screen and (max-width: 800px) {
+    #topicos {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
+    .container_topicos {
+        width: 100%;
+        height: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .items_topicos {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
 </style>
